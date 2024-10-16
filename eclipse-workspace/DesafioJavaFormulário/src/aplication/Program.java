@@ -25,7 +25,7 @@ public class Program {
 	String name = sc.nextLine();
 	System.out.print("email: ");
 	String email = sc.next();
-	System.out.print("Enter date ex:(02/12/2024): ");
+	System.out.print("Enter birthDate ex:(02/12/2024): ");
 	Date birthDate = sdf.parse(sc.next());
 	
 	Client client = new Client(name,email,birthDate);
